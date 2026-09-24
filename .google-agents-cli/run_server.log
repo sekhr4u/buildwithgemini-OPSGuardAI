@@ -1,0 +1,99 @@
+=== Starting server at 2026-09-24T09:53:21.142675+00:00 ===
+Command: /config/Desktop/Session1/my-simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/my-simple-agent
+=== Started server process 57792 ===
+2026-09-24 09:53:23,972 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 09:53:23,973 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/my-simple-agent
+2026-09-24 09:53:23,974 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/my-simple-agent
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [57792]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52558 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 09:53:24,587 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/my-simple-agent/app/.adk/session.db
+2026-09-24 09:53:24,630 - INFO - api_server.py:1110 - New session created: 8a1ccbea-b8a5-4e8c-8170-58780ec2099c
+INFO:     127.0.0.1:52562 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 09:53:24,643 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/my-simple-agent/.env
+INFO:     127.0.0.1:52568 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 09:53:25,694 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:53:26,800 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 09:53:26,827 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:53:27,437 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 09:53:27,616 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 09:53:27,616 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [57792]
+=== Starting server at 2026-09-24T09:53:30.482096+00:00 ===
+Command: /config/Desktop/Session1/my-simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/my-simple-agent
+=== Started server process 57842 ===
+2026-09-24 09:53:31,680 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 09:53:31,681 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/my-simple-agent
+2026-09-24 09:53:31,681 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/my-simple-agent
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [57842]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:33542 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 09:53:32,007 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/my-simple-agent/app/.adk/session.db
+2026-09-24 09:53:32,020 - INFO - api_server.py:1110 - New session created: 53ce1f66-e13c-4865-bbc0-d83062a21191
+INFO:     127.0.0.1:33556 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 09:53:32,034 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/my-simple-agent/.env
+INFO:     127.0.0.1:33560 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 09:53:32,469 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:53:33,733 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 09:53:33,766 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:53:34,568 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 09:53:34,790 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 09:53:34,791 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [57842]
+=== Starting server at 2026-09-24T09:54:27.853502+00:00 ===
+Command: /config/Desktop/Session1/my-simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/my-simple-agent
+=== Started server process 58096 ===
+2026-09-24 09:54:29,094 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 09:54:29,095 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/my-simple-agent
+2026-09-24 09:54:29,095 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/my-simple-agent
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [58096]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:59656 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 09:54:29,679 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/my-simple-agent/app/.adk/session.db
+2026-09-24 09:54:29,694 - INFO - api_server.py:1110 - New session created: a9148eeb-49e5-48be-972c-4f47e4c0d71e
+INFO:     127.0.0.1:59658 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 09:54:29,707 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/my-simple-agent/.env
+INFO:     127.0.0.1:59664 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/my-simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 09:54:30,144 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:54:31,133 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 09:54:31,163 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:54:31,984 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 09:54:32,166 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 09:54:32,166 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [58096]

@@ -1,0 +1,7 @@
+.venv/
+.adk/
+__pycache__/
+*.pyc
+raw_recordings/
+.env
+lofi_track.wav
