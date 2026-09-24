@@ -2,6 +2,8 @@
 
 ![OpsGuard AI Demo](demo.gif)
 
+> 🎥 **Full Demo Video**: High-definition video with upbeat lo-fi audio track is included in the repository: [`opsguard_demo.mp4`](opsguard_demo.mp4)
+
 **OpsGuard AI** is an autonomous SRE and DevOps incident triage agent built with the **Google Agent Development Kit (ADK)**. It empowers engineering teams to analyze Cloud Logging error streams, inspect local codebase source files, generate visual infrastructure topology diagrams, update incident states in Firestore, execute diagnostic code in a sandboxed Python environment, and persist cross-session operational memory using Vertex AI Memory Bank.
 
 ---
